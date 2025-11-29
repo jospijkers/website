@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/devonspijkers.jpg" alt="Devon Spijkers" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Devon Spijkers">Devon Spijkers</h1>
+
+          <p class="title">Cybersecurity Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:devonspijkers@outlook.com" class="contact-link">devonspijkers@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+31643732519" class="contact-link">+31 6 43732519</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="02-07-2002">January 15, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Stolwijk, Krimpenerwaard  Netherlands</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+			I'm someone who's been fascinated by computers since I was in primary school. I remember being amazed by how they work and what they could do. Because of this I knew that I wanted to work within this field.
+		  	After Highschool I studied IT Management at MBO Rijnland in Gouda, I enjoyed my time there but I knew I had more in me and that there was more I wanted to do.
+			That is when I started my study Cybersecurity & Cloud at Hogeschool Utrecht.
+		  </p>
+		  <p>
+			I think that in today's digital world, it's important to understand how technology works, especially when it comes to protecting ourselves and others from cyber threats.
+		  </p>	
+			Currently, I am pursuing a degree in cyber security and cloud, which I believe will give me the skills and knowledge required to succeed in this rapidly growing field. 
+			My plan is to specialize in cyber security and become an expert in this area.
+		  <p>	
+			My experience includes Windows and Linux server management, Cisco, Network Infrastructure and protocols, Python, Security, Ethical Hacking, Automation and Communication
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Managing Infrastructure</h4>
+
+                <p class="service-item-text">
+                  Automation, Configuration Management, Monitoring, Incident Response
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="infrastructure-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security Automation</h4>
+
+                <p class="service-item-text">
+                  Vulnerability scanning, Patch management, SIEM
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation</h4>
+
+                <p class="service-item-text">
+                  Task automation with Python and Terraform
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Networking</h4>
+
+                <p class="service-item-text">
+                  Cisco and Pfsense/OPNsense
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - BLOG
+        -->
+
+        <section class="Certifications">
+
+          <h3 class="h3 Certifications">Certifications</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/EFSET.png" alt="EF SET" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>EF SET English C2 79/100</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The EF SET English Certificate is an open-access standardized English test used primarily for English proficiency certification. 
+					It tests reading and listening skills but not speaking or writing skills. 
+					Scores on the EF SET range from 0 to 100 and are aligned with the six CEFR levels. 
+					These scores can be published directly to LinkedIn as an official English certification
+			  		Link: https://cert.efset.org/nl/41Y3nk
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title> </h4>
+
+              <time datetime="2021-06-14">  </time>
+
+              <div data-modal-text>
+                <p>
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="Experience">
+
+          <h3 class="h3 clients-title">Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/welthuis.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/axle.svg" alt="client logo">
+              </a>
+            </li>
+		  
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/RIVM-logo.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/conscia.svg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+		  
+		    <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">GSG Leo Vroman (Mavo)</h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                The MAVO (Middelbaar Algemeen Voortgezet Onderwijs) in the Netherlands is a level of secondary education focused on general subjects with a practical approach. It prepares students for vocational education (MBO) and includes core subjects such as languages, mathematics, and social studies. 
+		MAVO emphasizes hands-on learning and real-world application, offering a solid foundation for further professional training rather than academic university studies.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MBO Rijnland (MBO Level 4)</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                The MBO diploma in Network and Application Management is a secondary vocational
+                education qualification in the Netherlands. This program is equivalent to a post-secondary
+                vocational qualification in the U.S., with a strong emphasis on practical
+                skills and theoretical knowledge in network infrastructure and application management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hogeschool Utrecht (Bachelor)</h4>
+
+              <span>2021 — Current</span>
+
+              <p class="timeline-text">
+                The Bachelor HBO ICT Cybersecurity and Cloud is a higher professional education
+                degree in the Netherlands, equivalent to a U.S. bachelor's degree. This program
+                focuses on advanced cybersecurity practices and cloud infrastructure management,
+                combining theoretical knowledge with practical skills to prepare students
+                for the dynamic field of information technology.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">WelThuis - Internship </h4>
+
+              <span>Aug 2018 - Feb 2018</span>
+
+              <p class="timeline-text">
+                During my time at WelThuis as a IT intern, my primary responsibility was to prepare devices for employees. 
+				This included setting up electronics such as smartphones, laptops, and tablets, ensuring they were fully functional and ready for use. 
+				I also performed basic troubleshooting, configured device settings, and ensured that everything was in perfect working order before handover. 
+				This role enhanced my technical skills and attention to detail, ensuring a smooth and efficient process for employees to enjoy their new devices right away.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Axel-IT - Internship </h4>
+
+              <span>Feb 2021 - Jul 2021</span>
+
+              <p class="timeline-text">
+                At Axle-IT, I was responsible for documenting and reviewing configurations of various IT tools. My tasks included creating clear and user-friendly tool guides for employees and ensuring that all critical configurations were properly recorded and understood. 
+				This internship significantly improved my documentation skills and strengthened my ability to quickly understand and work with new tools.
+              </p>
+
+            </li>
+			
+			
+			            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">RIVM National Institute for Public Health and the Enviroment - Internship </h4>
+
+              <span>Sep 2023 - Feb 2024</span>
+
+              <p class="timeline-text">
+                During my internship at the RIVM, my main task was to research the requirements for conducting forensic investigations on IT devices such as Android phones, iPhones, tablets, and laptops.
+			To do this, I explored various types of hardware tools and investigated the legal and procedural guidelines behind their use.
+			I worked within the CISO department, where I gained valuable experience in the field of IT forensics and learned how forensic processes are applied in a professional environment.
+              </p>
+
+            </li>
+			
+			
+			            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HU University of Applied Sciences Utrecht (Hogeschool Utrecht) - Part-time</h4>
+
+              <span>Dec 2022 — Current</span>
+
+              <p class="timeline-text">
+                In my part-time position as a student assistant at Hogeschool Utrecht, I supported various academic activities, including assisting in classes, helping organize open days, and coordinating try-out days for prospective students. 
+				I also contributed to the creation of the new curriculum for a first-year subject, collaborating with faculty to ensure the content met academic standards. 
+				I provided administrative support, guided visitors, and helped create a welcoming environment for both current and potential students. 
+				This role allowed me to develop strong communication and organizational skills while gaining experience in educational settings and contributing to the university’s outreach efforts.
+
+		      
+			            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Conscia - Internship </h4>
+
+              <span>Feb 20205 — Current</span>
+
+              <p class="timeline-text">
+                During my internship at Conscia, a leading provider of cybersecurity and networking solutions, I worked on automating the Life Cycle Management (LCM) process for client network components. The primary objective was to streamline the creation of detailed reports regarding the status of hardware and software, including critical data such as end-of-life (EoX), end-of-support, and end-of-sale information.
+
+In this project, I successfully developed an automated system using Windmill, Python, and external APIs to collect, process, and report the necessary data. I created a Proof of Concept (PoC) that automates the retrieval and enrichment of data for various network devices, generates comprehensive LCM reports, and integrates information from different vendors such as Cisco, Checkpoint, Extreme, and Palo Alto.
+		      
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Communication</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Typing</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Team Leadership</h5>
+                <data value="70">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+			
+			<li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Automation</h5>
+                <data value="70">55%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+			
+			<li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Networking</h5>
+                <data value="60">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+		
+			
+			<li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Computing</h5>
+                <data value="40">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Infrastructure </button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Infrastructure</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DigitalForensics.jpg" alt="Infrastructure" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Forensics  </h3>
+
+                <p class="project-category">Infrastructure</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/automation.jpg" alt="Infrastructure" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rapport Automation</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/homelab.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Infrastructure</p>
+
+                    <time datetime="2022-02-23"> </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">No blog yet</h3>
+
+                  <p class="blog-text">
+
+                  </p>
+
+                </div>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+  <figure>
+    <iframe
+      src="https://www.google.nl/maps/embed?pb=!1m18!1m12!1m3!1d2465.8894564927234!2d4.770752115941195!3d51.96977617971056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5d59f9cb4e9eb%3A0xf6d70bcc95aab476!2sTentweg%2050%2C%202821%20AG%20Stolwijk!5e0!3m2!1snl!2snl!4v1714542688800!5m2!1snl!2snl"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </figure>
+</section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact me</h3>
+
+          <section class="about-text">
+            <p>
+              If you have any questions or would like to discuss recruitment opportunities,
+              please feel free to reach out to me through the contact information provided on the contact panel.
+            </p>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
