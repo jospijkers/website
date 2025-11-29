@@ -520,6 +520,10 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  
+  max-width: 900px;    /* maximaal 900px breed */
+  margin: 0 auto;      /* centreren */
+  padding: 0 20px;     /* beetje ruimte aan zijkanten */
 }
 
 .service-item {
@@ -529,6 +533,9 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+
+  width: 100%;         /* vult de volledige breedte van de grid cel */
+  max-width: none;     /* geen max-width, neemt volle breedte */
 }
 
 .service-item::before {
