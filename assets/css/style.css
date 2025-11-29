@@ -1887,3 +1887,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.Certifications .testimonials-text {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  -webkit-box-orient: unset;
+  overflow: visible;
+}
+
+.Certifications .testimonials-item-title {
+  margin-left: 0 !important;
+}
